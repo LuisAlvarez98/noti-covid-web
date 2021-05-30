@@ -4,6 +4,9 @@ import { Grid } from "@material-ui/core";
 import Jesus from "../img/jesus.png";
 import Andrea from "../img/andrea.png";
 import Luis from "../img/avatar.jpg";
+//@ts-ignore
+import Kevin from "../img/kevin.PNG";
+import Javier from "../img/javier.jpg";
 const Container = styled.div`
   padding: 32px;
 `;
@@ -22,10 +25,11 @@ const About = () => {
       <Container>
         <h1>Sobre nosotros</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus
+          Somos el equipo 3 de la clase de Evaluación y Administración de
+          Proyectos
         </p>
-        <p> Curabitur bibendum eros quis tortor bibendum rutrum.</p>
-        <p> porttitor orci, a faucibus tortor sollicitudin vitae.</p>
+        <p> Este proyecto fue creado con el objetivo </p>
+        <p> de informar a la gente en NL sobre el COVID 19</p>
 
         <Grid
           container
@@ -38,12 +42,12 @@ const About = () => {
           <Grid item xs={12} md={4}>
             <Avatar src={Jesus} style={{ width: 128, height: 128 }} />
             <NameText>Jesus</NameText>
-            <p>Programador</p>
+            <p>Administrador</p>
           </Grid>
           <Grid item xs={12} md={4}>
             <Avatar src={Andrea} style={{ width: 128, height: 128 }} />
             <NameText>Andrea</NameText>
-            <p>Programadora</p>
+            <p>Administradora</p>
           </Grid>
           <Grid item xs={12} md={4}>
             <Avatar src={Luis} style={{ width: 128, height: 128 }} />
@@ -51,12 +55,12 @@ const About = () => {
             <p>Programador</p>
           </Grid>
           <Grid item xs={12} md={4}>
-            <Avatar src={Jesus} style={{ width: 128, height: 128 }} />
+            <Avatar src={Javier} style={{ width: 128, height: 128 }} />
             <NameText>Jesus</NameText>
             <p>Programador</p>
           </Grid>
           <Grid item xs={12} md={4}>
-            <Avatar src={Jesus} style={{ width: 128, height: 128 }} />
+            <Avatar src={Kevin} style={{ width: 128, height: 128 }} />
             <NameText>Jesus</NameText>
             <p>Programador</p>
           </Grid>
